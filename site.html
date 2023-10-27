@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <img src="Privacy-Settings-2.jpeg" class="small" id="smart_thumbnail">
+
+    <script>
+        var thumbnailElement = document.getElementById("smart_thumbnail");
+
+        document.addEventListener("DOMContentLoaded", function(event) {
+            thumbnailElement.addEventListener("click", function() {
+                thumbnailElement.classList.remove("small");
+                console.log("clicked");
+            });
+        });
+    </script>
+
+    <style>
+        .small {
+            width: 50px;
+            height: 50px;
+        }
+    </style>
+</body>
+
+</html>

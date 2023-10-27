@@ -1,0 +1,27 @@
+.fill{
+    background-image: url('https://i.imgur.com/rD8nrU0.png');
+    position: relative;
+    height: 150px;
+    width: 150px;
+    top : 5px;
+    left : 5px;
+    cursor: pointer;
+}
+
+.hold {
+    border: solid 5px #1d85af;
+}
+
+.empty {
+    display : inline-block;
+    height: 160px; 
+    width: 160px;
+    margin: 10px;
+    border: solid 5px #1d85af;
+    background: white;
+}
+
+.hovered {
+    background: #1d85af;
+    border-style: dashed;
+}
